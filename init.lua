@@ -19,3 +19,8 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
+
+vim.opt.shell = "/bin/zsh"
+vim.opt.shellcmdflag = "-ic"
+
+
